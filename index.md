@@ -19,7 +19,7 @@
  			background-repeat: no-repeat;
  		 	background-size: cover;
 		}
-</style>
+	</style>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
 	<section style="clear:left">
 		<h1>Welcome</h1>
 		<p>Brotger.</p>
-	</section
+	</section>
 
 </body>
 </html>
