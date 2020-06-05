@@ -39,7 +39,7 @@
 	<section style="clear:left">
 		<h1>Welcome</h1>
 		<p>Brotger.</p>
-	</section
+	</section>
 
 </body>
 </html>
