@@ -16,11 +16,11 @@
 <body>
 	<header>
 		<img src="media/TriangleBanner.png" alt="Banner" style="width:33%;float:left;padding:1%;">
-		<nav style="float:right;font-size:1.5vw;list-style-type:none;margin:0;padding:15px;width:60%">
-			<li style="display:inline"><a href="http://endless.horse/" style="display:block;float:right;border:1px solid #bbb;padding:1%">About</a></li>
-			<li style="display:inline"><a href="http://endless.horse/" style="display:block;float:right;border:1px solid #bbb;padding:1%">Events</a></li>
-			<li style="display:inline"><a href="http://endless.horse/" style="display:block;float:right;border:1px solid #bbb;padding:1%">Spotlight</a></li>
-			<li style="display:inline"><a href="http://endless.horse/" style="display:block;float:right;border:1px solid #bbb;padding:1%">Contact</a></li>
+		<nav style="float:right;font-size:1.3vw;list-style-type:none;margin:0;padding:15px;width:calc(65% - 30px);text-align:center">
+			<li style="display:inline"><a href="http://endless.horse/" style="display:block;border:1px solid #bbb;padding:1%;width:20%;float:right">About</a></li>
+			<li style="display:inline"><a href="http://endless.horse/" style="display:block;border:1px solid #bbb;padding:1%;width:20%;float:right">Events</a></li>
+			<li style="display:inline"><a href="http://endless.horse/" style="display:block;border:1px solid #bbb;padding:1%;width:20%;float:right">Spotlight</a></li>
+			<li style="display:inline"><a href="http://endless.horse/" style="display:block;border:1px solid #bbb;padding:1%;width:20%;float:right">Contact</a></li>
 
 		</nav>
 		<hr style="clear:both;height:2px;border-width:0;color:gray;background-color:gray">
