@@ -7,31 +7,107 @@
 	<meta name="keywords" content="triangle,Triangle,toledo,Toledo,ut,UT,rockets,Rockets,fraternity,Fraternity,greek,Greek,ohio,Ohio">
 	<meta name="author" content="Ben E., Jason K., Max C., Evan E.">
 	<meta http-equiv="refresh" content="30">
+	<link rel="stylesheet" href="HomeStyle.css">
 	<style>	
-	body {
-  		background-image: url('media/Background.png');
-		margin: 0px;
-	}
-</style>
+	</style>
 </head>
 <body>
-	<header style="width:100%;position:fixed">
-		<nav style="float:right;font-size:1vw;list-style-type:none;position:fixed;top:0;right:0;width:100%;text-align:center;background-color:#000000;opacity:0.75;z-index:-1">
-			<li style="display:inline"><a href="http://endless.horse/" style="display:block;border:2px solid #a1a1a1;border-radius:10px;width:5%;float:right;margin:0.5%;margin-right:1%;padding:3px;text-decoration:none;color:#a1a1a1;z-index:0">About Us</a></li>
-			<li style="display:inline"><a href="http://endless.horse/" style="display:block;border:2px solid #a1a1a1;border-radius:10px;width:6%;float:right;margin:0.5%;padding:3px;text-decoration:none;color:#a1a1a1;z-index:0">Our Events</a></li>
-			<li style="display:inline"><a href="http://endless.horse/" style="display:block;border:2px solid #a1a1a1;border-radius:10px;width:9%;float:right;margin:0.5%;padding:3px;text-decoration:none;color:#a1a1a1;z-index:0">Brother Spotlight</a></li>
-			<li style="display:inline"><a href="http://endless.horse/" style="display:block;border:2px solid #a1a1a1;border-radius:10px;width:6%;float:right;margin:0.5%;padding:3px;text-decoration:none;color:#a1a1a1;z-index:0">Contact Us</a></li>
-			<li style="display:inline"><a href="index.html" style="display:block;height:100%;float:left;margin:0.5%;margin-left:9%;padding:5px;text-decoration:none;color:#a1a1a1;z-index:0;font-size:1.4vw"><strong>Toledo Triangle Fraternity</strong></a></li>
+	<header>
+		<nav>
+			<li><a href="http://endless.horse/" id="Links">About Us</a></li>
+			<li><a href="http://endless.horse/" id="Links">Our Events</a></li>
+			<li><a href="http://endless.horse/" id="Links">Brother Spotlight</a></li>
+			<li><a href="http://endless.horse/" id="Links">Contact Us</a></li>
+			<img src="media/TriangleProfile.png" alt="Banner" id="TitleImage">
+			<li><a href="index.html" id="Title"><strong>Toledo Triangle Fraternity</strong></a></li>
 		</nav>
-		<img src="media/TriangleProfile.png" alt="Banner" style="width:4%;margin-left:5%;z-index:0">
 	</header>
-	<div style="float:left;clear:both;width:100%;text-align:center;">
-		<picture style="">
+	<div id="CoverImage">
+		<picture>
 			<source media="(min-width:650px)" srcset="media/Main.png">
 			<img src="media/Main.png" style="width:100%;">
 		</picture>
 	</div>
-	<div>
+	<div style="height:0.5%;background-color:black;clear:both">
+	</div>
+	<section style="background-color:#c08081;padding-bottom:4%;padding-top:0.1%">
+		<p style="font-size:3vw;text-align:center"><strong>Fall 2020 Eboard</strong></p>
+		<div style="height:0.5%;background-color:black;clear:both;width:60%;margin-left:20%">
+		</div>
+		<div id="Eboard" style="height:8vw;">
+			<img src="media/Marcus.png" id="Profile" style="margin-left:20%;">
+			<div style="float:left" id="Bios">
+				<h3 style="font-size:1.1vw">President</h3>
+				<p style="font-size:1vw"><i>The small bio that the president writes about himself will go here. When I get his photo it will replace margus instead.</i></p>
+				<p id="Signature" style="font-size:1vw"><i>-Michael Jeffery</i></p>
+			</div>	
+			<div style="float:right;margin-right:20%" id="Bios">
+				<h3 style="font-size:1.1vw">Vice-President</h3>
+				<p style="font-size:1vw"><i>The small bio that the president writes about himself will go here. When I get his photo it will replace margus instead.</i></p>
+				<p id="Signature" style="font-size:1vw"><i>-Nicholas Ziegelmeyer</i></p>
+			</div>	
+			<img src="media/Marcus.png" id="Profile" style="float:right">
+		</div>
+		</div>
+		<div style="height:0.5%;background-color:black;clear:both;width:96%;margin-left:2%">
+		</div>
+		<div id="Eboard">
+			<img src="media/Marcus.png" id="Profile" style="margin-left:2%">
+			<div style="float:left" id="Bios">
+				<h3 id="PTitle">Recruitment</h3>
+				<p style="font-size:.8vw"><i>The small bio that the president writes about himself will go here. When I get his photo it will replace margus instead.</i></p>
+				<p id="Signature" style="font-size:.8vw"><i>-Jason Kahn</i></p>
+			</div>	
+			<img src="media/Marcus.png" id="Profile" style="margin-left:2%">
+			<div style="float:left" id="Bios">
+				<h3 id="PTitle">Social</h3>
+				<p style="font-size:.8vw"><i>The small bio that the president writes about himself will go here. When I get his photo it will replace margus instead.</i></p>
+				<p id="Signature" style="font-size:.8vw"><i>-Brendon Stoner</i></p>
+			</div>
+			<div style="float:right;margin-right:2%" id="Bios">
+				<h3 id="PTitle">Academic</h3>
+				<p style="font-size:.8vw"><i>The small bio that the president writes about himself will go here. When I get his photo it will replace margus instead.</i></p>
+				<p id="Signature" style="font-size:.8vw"><i>-Michael Hilyard</i></p>
+			</div>	
+			<img src="media/Marcus.png" id="Profile" style="float:right;margin-right:2%">	
+			<div style="float:right;" id="Bios">
+				<h3 id="PTitle">Philanthropy</h3>
+				<p style="font-size:.8vw"><i>The small bio that the president writes about himself will go here. When I get his photo it will replace margus instead.</i></p>
+				<p id="Signature" style="font-size:.8vw"><i>-Tom Franczyk</i></p>
+			</div>	
+			<img src="media/Marcus.png" id="Profile" style="float:right">
+		</div>
+		<div id="Eboard">
+			<img src="media/Marcus.png" id="Profile" style="margin-left:2%">
+			<div style="float:left" id="Bios">
+				<h3 id="PTitle">New-Member Educator</h3>
+				<p style="font-size:.8vw"><i>The small bio that the president writes about himself will go here. When I get his photo it will replace margus instead.</i></p>
+				<p id="Signature" style="font-size:.8vw"><i>-Mark Rooney</i></p>
+			</div>	
+			<img src="media/Marcus.png" id="Profile" style="margin-left:2%">
+			<div style="float:left" id="Bios">
+				<h3 id="PTitle">Treasurer</h3>
+				<p style="font-size:.8vw"><i>The small bio that the president writes about himself will go here. When I get his photo it will replace margus instead.</i></p>
+				<p id="Signature" style="font-size:.8vw"><i>-Logan Crawfis</i></p>
+			</div>
+			<div style="float:right;margin-right:2%" id="Bios">
+				<h3 id="PTitle">Resident Advisor</h3>
+				<p style="font-size:.8vw"><i>The small bio that the president writes about himself will go here. When I get his photo it will replace margus instead.</i></p>
+				<p id="Signature" style="font-size:.8vw"><i>-Alex Marchand</i></p>
+			</div>	
+			<img src="media/Marcus.png" id="Profile" style="float:right;margin-right:2%">	
+			<div style="float:right;" id="Bios">
+				<h3 id="PTitle">Secretary</h3>
+				<p style="font-size:.8vw"><i>The small bio that the president writes about himself will go here. When I get his photo it will replace margus instead.</i></p>
+				<p id="Signature" style="font-size:.8vw"><i>-Evan Elliott</i></p>
+			</div>	
+			<img src="media/Marcus.png" id="Profile" style="float:right">
+		</div>
+	</section>
+	</div>
+	<div style="height:0.5%;background-color:black;clear:both">
+	</div>
+	<div style="clear:both">
 		<p>Looking to join? yeah me too.</p>
 	</div>
 </body>
